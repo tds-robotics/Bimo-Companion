@@ -5,7 +5,7 @@ BIMO este un companion inteligent de birou conceput pentru prevenirea stresului 
 . Construit pe o platformă hardware accesibilă (Raspberry Pi) cu inteligență artificială integrată, BIMO facilitează o relație mai sănătoasă cu tehnologia, transformând-o într-un partener empatic dedicat echilibrului emoțional și productivități
 
 
-## Utlizare
+## Utilizare
 
 
 - Monitorizarea proactivă a stresului și prevenirea burnout-ului în timp real pentru angajați și studenți
