@@ -4,6 +4,21 @@ BIMO este un companion inteligent de birou conceput pentru prevenirea stresului 
 . Sistemul integrează analiză multi-senzorială — incluzând monitorizarea ritmului cardiac, analiza micro-expresiilor faciale și recunoașterea tonului vocii — pentru a identifica semnele timpurii de burnout înainte ca acestea să escaladeze
 . Construit pe o platformă hardware accesibilă (Raspberry Pi) cu inteligență artificială integrată, BIMO facilitează o relație mai sănătoasă cu tehnologia, transformând-o într-un partener empatic dedicat echilibrului emoțional și productivități
 
+
+## Utlizare
+
+
+Monitorizarea proactivă a stresului și prevenirea burnout-ului în timp real pentru angajați și studenți
+.
+Asistență personalizată pentru sănătatea mintală prin exerciții de respirație și tehnici de relaxare ghidate
+.
+Gestionarea presiunii academice și a emoțiilor din perioadele de examene pentru elevi
+.
+Optimizarea echilibrului work-life și reducerea izolării pentru persoanele care lucrează în regim remote
+.
+Soluții de wellbeing scalabile pentru departamentele de HR corporate și instituțiile educaționale
+.
+Analiză multi-senzorială a stării emoționale (facială, vocală și cardiacă) pentru feedback empatic instantaneu
 ## 🛠 Tehnologii Utilizate
 - **Hardware:**
   - Raspberry Pi 5 (4GB RAM)
