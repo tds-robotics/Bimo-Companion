@@ -251,11 +251,11 @@ class HeartRateManager(threading.Thread):
     async def connection_loop(self):
         while True:
             try:
-                print(f"🔗 Bimo: Tentativă conectare la {self.MAC_BRATARA}...")
+                print(f" Bimo: Tentativă conectare la {self.MAC_BRATARA}...")
                 async with BleakClient(self.MAC_BRATARA, timeout=10.0) as client:
                     await self.authenticate_and_read(client)
             except Exception as e:
-                print(f"❌ [BLUETOOTH] Eroare: {e}. Reîncerc în 5 secunde...")
+                print(f" [BLUETOOTH] Eroare: {e}. .")
                 await asyncio.sleep(5)
 
     async def authenticate_and_read(self, client):
@@ -586,7 +586,7 @@ class SystemUtils:
                     os.remove(fisier_mp3)
 
             except Exception as e:
-                print(f"❌ [EROARE în thread audio]: {e}")
+                print(f" [EROARE  audio]: {e}")
 
         
         
@@ -619,7 +619,7 @@ class SystemUtils:
         return timp_formatat
     def ruleaza_meditatie_youtube(self):
         
-        print("🧘 [TERAPIE] Pregătesc clipul de meditație...")
+        print("Pregătesc clipul de meditație...")
         try:
             pygame.mixer.quit() 
         except: pass 
@@ -627,9 +627,9 @@ class SystemUtils:
         comanda = ["mpv", "--fs", "--ontop", "meditatie.mp4"]
         try:
             subprocess.run(comanda)
-            print("✅ [TERAPIE] Meditația s-a încheiat.")
+            print("Meditația s-a încheiat.")
         except Exception as e:
-            print(f"❌ [EROARE PLAYER]: {e}")
+            print(f" [EROARE PLAYER]: {e}")
 
         
         try:
@@ -1054,7 +1054,7 @@ def deschide_camera(camera_obj):
         
     except Exception as e:
         print("\n" + "="*50)
-        print(" [EROARE CAMERĂ]:")
+        print(f" [EROARE CAMERĂ]:{e}")
         traceback.print_exc()
         print("="*50 + "\n")
 
@@ -1137,7 +1137,7 @@ def main():
     font_puls = pygame.font.SysFont("Arial", 30, bold=True)
     culoare_bula = (100, 200, 255)
     
-    print("🤖 Bimo este activ și ascultă!")
+    
 
     while running:
        
@@ -1272,7 +1272,7 @@ def main():
         elif res.stare_interfata == 6:
             
             utils.spune("Inițiez sesiunea de calmare. Relaxează-te.")
-            utils.ruleaza_meditatie_youtube() # Funcția oprește pygame audio și deschide mpv
+            utils.ruleaza_meditatie_youtube() 
             res.stare_interfata = 0
 
        
@@ -1280,7 +1280,7 @@ def main():
         ceas.tick(30) 
 
     
-    print("🛑 [SISTEM] Programul a fost oprit. Curățare memorie...")
+    
     
     
     audio_manager.stop()
