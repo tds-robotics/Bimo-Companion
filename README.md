@@ -16,15 +16,21 @@ BIMO este un companion inteligent de birou conceput pentru prevenirea stresului 
 - Analiză multi-senzorială a stării emoționale (facială, vocală și cardiacă) pentru feedback empatic instantaneu
 ## 🛠 Tehnologii Utilizate
 - **Hardware:**
-  - Raspberry Pi 5 (4GB RAM)
-  - Cameră video (Module AI)
-  - Senzori Biometrici (Bluetooth Low Energy)
-  - Șasiu printat 3D (r-PETG)
-- **Software:**
-  - **Limbaj:** Python 
-  - **Computer Vision:** OpenCV, DeepFace (pentru detecția stărilor faciale)
-  - **Comunicații:** Protocol BLE (securizat cu AES-128)
-  - **Edge Computing:** Procesare locală pentru confidențialitatea datelor
+  - Raspberry Pi 5 — Unitatea centrală de procesare pentru rularea modelelor AI și gestionarea logicii de sistem
+  - Display (Ecran) — Interfață vizuală pentru afișarea expresiilor "prietenului digital" și a datelor de wellbeing
+  - Carcasă imprimată 3D — Structură personalizată pentru protecția componentelor și estetica de companion tangibil
+- **Senzori și Input:**
+   - Cameră integrată — Utilizată pentru analiza micro-expresiilor faciale în timp real prin biblioteca DeepFace și analiza agitației utilizatorului
+   - Microfon sensibil — Captarea vocii pentru recunoașterea tonului, intensității emoționale și procesarea comenzilor vocale
+   - Brățară inteligentă  — Monitorizarea continuă a ritmului cardiac, conectată via protocolul Bleak
+- **Software & AI:**
+   - Python 3 — Limbajul principal utilizat pentru integrarea tuturor modulelor hardware și software
+   - OpenAI API (GPT-4.0-mini) — Creierul conversațional pentru dialoguri naturale, suport personalizat și asistență empatică complexă
+   - DeepFace & Picamera2 — Suite de procesare a imaginilor pentru detectarea stării emoționale din expresiile feței și detecția nivelurilor de agitație
+   - Faster-Whisper & openWakeWord — Tehnologii pentru recunoașterea vocală rapidă și activarea asistentului prin comandă vocală chiar dacă nu există internet
+- **Mecanisme de Interacțiune:**
+   - Servomotoare și mecanism — Permit rotația capului și mișcări fizice pentru o interacțiune mai naturală și empatică
+   - Sistem audio (Difuzor) — Redarea răspunsurilor vocale generate și a ghidajelor pentru exerciții de relaxare
 
 ##  Funcționalități Cheie
 - **Sensor Fusion:** Corelarea datelor de puls cu expresiile faciale pentru eliminarea alarmelor false.
