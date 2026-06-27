@@ -1,11 +1,14 @@
 # Bimo-Companion
-Robot companion de birou bazat pe AI, dezvoltat de echipa TDS Robotics. Bimo utilizează Computer Vision  și senzori biometrici (BLE) pentru a monitoriza stresul și a oferi suport emoțional utilizatorului. Proiect sustenabil, construit pe Raspberry Pi 5 pentru procesare Edge.
-# Bimo: AI Desktop Companion 
-
-Bimo este un asistent digital personalizat, conceput pentru a oferi suport emoțional și a reduce stresul la locul de muncă sau de studiu. Proiectul a fost dezvoltat de echipa **TDS Robotics** și a obținut **Top 10 Național** la categoria „AI for Good”.
-
-##  Despre Proiect
-Bimo nu este doar un robot, ci un companion empatic. Construit pentru a combate epuizarea , Bimo utilizează fuziunea de senzori și viziunea computerizată pentru a detecta nivelul de stres al utilizatorului și pentru a interveni proactiv cu sfaturi și exerciții de relaxare.
+BIMO este un companion inteligent de birou conceput pentru prevenirea stresului și monitorizarea stării de bine a utilizatorului în timp real
+,
+,
+. Acesta dispune de o prezență fizică proactivă și o interfață bazată pe AI pentru comunicare naturală, oferind suport personalizat și exerciții de relaxare ghidate
+,
+,
+. Sistemul integrează analiză multi-senzorială — incluzând monitorizarea ritmului cardiac, analiza micro-expresiilor faciale și recunoașterea tonului vocii — pentru a identifica semnele timpurii de burnout înainte ca acestea să escaladeze
+,
+,
+. Construit pe o platformă hardware accesibilă (Raspberry Pi) cu inteligență artificială integrată, BIMO facilitează o relație mai sănătoasă cu tehnologia, transformând-o într-un partener empatic dedicat echilibrului emoțional și productivități
 
 ## 🛠 Tehnologii Utilizate
 - **Hardware:**
