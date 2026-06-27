@@ -14,7 +14,7 @@ BIMO este un companion inteligent de birou conceput pentru prevenirea stresului 
 - Optimizarea echilibrului work-life și reducerea izolării pentru persoanele care lucrează în regim remote
 - Soluții de wellbeing scalabile pentru departamentele de HR corporate și instituțiile educaționale
 - Analiză multi-senzorială a stării emoționale (facială, vocală și cardiacă) pentru feedback empatic instantaneu
-## 🛠 Tehnologii Utilizate
+##  Tehnologii Utilizate
 - **Hardware:**
   - Raspberry Pi 5 — Unitatea centrală de procesare pentru rularea modelelor AI și gestionarea logicii de sistem
   - Display (Ecran) — Interfață vizuală pentru afișarea expresiilor "prietenului digital" și a datelor de wellbeing
@@ -36,7 +36,7 @@ BIMO este un companion inteligent de birou conceput pentru prevenirea stresului 
 
 - Analiză Multi-Senzorială în Timp Real — Monitorizarea simultană a ritmului cardiac (prin brățară inteligentă), a micro-expresiilor faciale (via cameră integrată) și a tonului vocii pentru o imagine completă a stării utilizatorului
 - Intervenție Proactivă și Empatică — Spre deosebire de aplicațiile pasive, BIMO observă utilizatorul în mod continuu și inițiază conversația autonom atunci când detectează primele semne de stres
-- Comunicare Naturală bazată pe AI — Integrare cu OpenAI GPT pentru dialoguri fluide, susținută de tehnologii de procesare vocală precum Faster-Whisper (pentru recunoaștere) și gTTS (pentru sinteză vocală)
+- Comunicare Naturală bazată pe AI — Integrare cu OpenAI GPT pentru dialoguri fluide, susținută de tehnologii de procesare vocală locală precum Faster-Whisper și gTTS (pentru sinteză vocală)
 - Asistență Personalizată pentru Relaxare — Oferă ghidaj instantaneu pentru tehnici de respirație, pauze de mișcare și recomandări specifice (ex: hidratare, corectarea posturii sau pauze de ecran)
 - Detectare Timpurie a Burnout-ului — Algoritmi de recunoaștere a tiparelor de comportament și a nivelului de agitație pentru a preveni escaladarea stresului în probleme cronice
 - Prezență Fizică Tangibilă — Un companion real pe birou, dotat cu un display pentru redarea emoțiilor digitale și o carcasă personalizată imprimată 3D, facilitând o conexiune mai apropiată de cea umană
