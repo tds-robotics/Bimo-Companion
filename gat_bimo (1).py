@@ -29,7 +29,7 @@ class GatBimo:
         if self.in_miscare: return
         self.in_miscare = True
         
-        print(" verificare...")
+        
         
         
         self._miscare_lina(self.servo_pan, self.PAN_CENTRU, 30, 0.005)
