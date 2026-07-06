@@ -41,6 +41,5 @@ BIMO este un companion inteligent de birou conceput pentru prevenirea stresului 
 - Detectare Timpurie a Burnout-ului — Algoritmi de recunoaștere a tiparelor de comportament și a nivelului de agitație pentru a preveni escaladarea stresului în probleme cronice
 - Prezență Fizică Tangibilă — Un companion real pe birou, dotat cu un display pentru redarea emoțiilor digitale și o carcasă personalizată imprimată 3D, facilitând o conexiune mai apropiată de cea umană
 
-Mai multe informații: bimo-companion.com 
-
+Mai multe informații găsiți [aici](https://bimo-companion.com)
 
